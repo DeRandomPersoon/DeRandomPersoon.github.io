@@ -1,0 +1,37 @@
+﻿[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+[type=radio] + img {
+    cursor: pointer;
+}
+
+[type=radio]:checked + img {
+    outline: 2px solid red;
+}
+
+[type=radio] + img {
+    cursor: pointer;
+}
+
+.sidebar {
+    height: 100%;
+    width: 80px;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    background-color: black;
+    padding-top: 40px;
+    border-color: black;
+    border-width: 2px;
+}
+
+.side-bar .icon {
+    padding: 20px 10px;
+}
+
+
